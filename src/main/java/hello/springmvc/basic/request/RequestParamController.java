@@ -13,6 +13,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * [Input data]
+ * ?username=nick&age=12
+ */
 @Slf4j
 @Controller
 public class RequestParamController {
