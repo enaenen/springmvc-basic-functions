@@ -76,7 +76,7 @@ public class RequestParamController {
     @ResponseBody
     @RequestMapping("/request-param-map")
     public String requestParamMap(@RequestParam Map<String, Object> paramMap){
-        //요청 다양하게 조회
+        //요청 다양하게 조회 (모든 것 조회)
         log.info("username={}, age={}", paramMap.get("username"), paramMap.get("age"));
         return "ok";
     }
